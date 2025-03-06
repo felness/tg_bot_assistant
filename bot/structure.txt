@@ -16,9 +16,9 @@ my_telegram_bot/
 │   │   └── speech_synthesis.py   # Интеграция с Яндекс SpeechKit (синтез речи)
 │   ├── utils/                    # Утилиты и вспомогательные функции
 │   │   ├── __init__.py
-│   │   └── config.py             # Конфигурации (API ключи, токены и другие настройки)
+│   │   └── config.py             # Конфигурации 
 │   ├── requirements.txt          # Список зависимостей
-│   └── .env                      # Файл для хранения секретных переменных (например, API ключей)
+│   └── .env                      # Файл для хранения секретных переменных 
 │
 ├── tests/                        # Папка с тестами
 │   ├── __init__.py
@@ -28,6 +28,6 @@ my_telegram_bot/
 │   ├── test_speech_recognition.py# Тесты для голосового ввода
 │   └── test_speech_synthesis.py  # Тесты для голосового вывода
 │
-├── docker-compose.yml            # Если планируете использовать Docker
-├── Dockerfile                    # Если контейнеризируете приложение
-└── README.md                     # Документация для проекта
+├── docker-compose.yml          
+├── Dockerfile                    
+└── README.md                     

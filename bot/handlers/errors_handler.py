@@ -4,6 +4,6 @@ import logging
 router = Router()
 
 @router.errors()
-async def error_handler(update: types.Update, exception: Exception):
+async def error_handler( exception: Exception):
     logging.error(f"Произошла ошибка: {exception}")
     return True 

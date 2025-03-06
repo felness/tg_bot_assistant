@@ -7,7 +7,7 @@ import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from bot.utils import config
+from utils import config
 
 load_dotenv()
 
@@ -36,7 +36,7 @@ class YandexGPT(LLM):
 
 def create_llm():
     yandex_llm = YandexGPT(
-        folder_id="b1gaiblprqonq7ao7deb",
+        folder_id=config.get_config()['folder_id'],
         api_key=IAM_TOKEN    
     )
     
