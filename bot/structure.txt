@@ -10,8 +10,8 @@ my_telegram_bot/
 │   │   └── command_handler.py    # Обработчик команд бота
 │   ├── services/                 # Папка для интеграции с внешними сервисами
 │   │   ├── __init__.py
-│   │   ├── yandex_gpt.py         # Интеграция с Яндекс GPT
-│   │   ├── yandex_search.py      # Интеграция с Яндекс Поиском
+│   │   ├── text_generation.py         # Интеграция с Яндекс GPT
+│   │   ├── text_generate_with_yandex_search.py      # Интеграция с Яндекс Поиском
 │   │   ├── speech_recognition.py # Интеграция с Яндекс Speech API (распознавание речи)
 │   │   └── speech_synthesis.py   # Интеграция с Яндекс SpeechKit (синтез речи)
 │   ├── utils/                    # Утилиты и вспомогательные функции
