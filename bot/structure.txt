@@ -1,33 +1,33 @@
 my_telegram_bot/
 │
-├── bot/
+├── bot/ 🤖💬🎙️
 │   ├── __init__.py               # Инициализация бота
 │   ├── bot.py                    # Главный файл бота
-│   ├── handlers/                 # Папка с обработчиками команд
+│   ├── handlers/ 🧩              # Папка с обработчиками команд
 │   │   ├── __init__.py
 │   │   ├── text_handler.py       # Обработчик текстовых сообщений
 │   │   ├── voice_handler.py      # Обработчик голосовых сообщений
 │   │   └── command_handler.py    # Обработчик команд бота
-│   ├── services/                 # Папка для интеграции с внешними сервисами
+│   ├── services/ 🔧🌐            # Папка для интеграции с внешними сервисами
 │   │   ├── __init__.py
-│   │   ├── text_generation.py         # Интеграция с Яндекс GPT
-│   │   ├── text_generate_with_yandex_search.py      # Интеграция с Яндекс Поиском
-│   │   ├── speech_recognition.py # Интеграция с Яндекс Speech API (распознавание речи)
-│   │   └── speech_synthesis.py   # Интеграция с Яндекс SpeechKit (синтез речи)
-│   ├── utils/                    # Утилиты и вспомогательные функции
+│   │   ├── text_generation.py    # Интеграция с Яндекс GPT
+│   │   ├── text_generate_with_yandex_search.py  # Интеграция с Яндекс Поиском
+│   │   ├── speech_recognition.py  # Интеграция с Яндекс Speech API (распознавание речи)
+│   │   └── speech_synthesis.py    # Интеграция с Яндекс SpeechKit (синтез речи)
+│   ├── utils/ 🛠️💡              # Утилиты и вспомогательные функции
 │   │   ├── __init__.py
-│   │   └── config.py             # Конфигурации 
+│   │   └── config.py             # Конфигурации
 │   ├── requirements.txt          # Список зависимостей
 │   └── .env                      # Файл для хранения секретных переменных 
 │
-├── tests/                        # Папка с тестами
+├── tests/ 🧪📊                   # Папка с тестами
 │   ├── __init__.py
 │   ├── test_bot.py               # Тесты для основного функционала бота
 │   ├── test_yandex_gpt.py        # Тесты для интеграции с Яндекс GPT
 │   ├── test_yandex_search.py     # Тесты для Яндекс Поиска
-│   ├── test_speech_recognition.py# Тесты для голосового ввода
+│   ├── test_speech_recognition.py # Тесты для голосового ввода
 │   └── test_speech_synthesis.py  # Тесты для голосового вывода
 │
-├── docker-compose.yml          
-├── Dockerfile                    
-└── README.md                     
+├── docker-compose.yml 🐳         # Конфигурация для Docker
+├── Dockerfile 🐋                 # Dockerfile для сборки контейнера
+└── README.md 📖                 # Документация
